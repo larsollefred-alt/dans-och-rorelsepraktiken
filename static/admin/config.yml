@@ -1,0 +1,118 @@
+# Decap CMS – what Jenny can edit at /admin/.
+# Login: Netlify Identity + Git Gateway (see README.md). Every save makes a commit, and Netlify rebuilds the site.
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: "Skapa {{collection}} “{{slug}}”"
+    update: "Uppdatera {{collection}} “{{slug}}”"
+    delete: "Ta bort {{collection}} “{{slug}}”"
+    uploadMedia: "Ladda upp “{{path}}”"
+    deleteMedia: "Ta bort “{{path}}”"
+
+locale: sv
+site_url: https://authenticmovement.se
+display_url: https://authenticmovement.se
+logo_url: /images/uploads/jenny-logo.png
+
+# Uploaded images and PDFs end up here and are optimized automatically when the site is built.
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: sidor
+    label: Startsidan
+    editor: { preview: false }
+    files:
+      - name: hero
+        label: "1. Första sektionen (bild och rubrik)"
+        file: content/hero.md
+        fields:
+          - { name: namn, label: "Namn (liten text överst)", widget: string }
+          - { name: rubrik, label: "Rubrik", widget: text, hint: "Varje rad här blir en egen rad i rubriken." }
+          - { name: underrubrik, label: "Underrubrik", widget: string, required: false }
+          - { name: bakgrundsbild, label: "Bakgrundsbild", widget: image, hint: "Liggande eller stående bild, gärna minst 2000 px bred." }
+          - { name: bakgrundsbild_alt, label: "Bildbeskrivning (för synskadade och Google)", widget: string }
+          - { name: knapptext, label: "Text på den röda knappen", widget: string, default: "Boka tid" }
+          - { name: visa_ringknapp, label: "Visa knappen ”Ring …”", widget: boolean, default: true }
+
+      - name: om-mig
+        label: "2. Om mig"
+        file: content/om-mig.md
+        fields:
+          - { name: rubrik, label: "Rubrik", widget: string }
+          - { name: ingress, label: "Ingress under rubriken", widget: text, required: false }
+          - { name: portratt, label: "Porträtt", widget: image }
+          - { name: portratt_alt, label: "Bildbeskrivning", widget: string }
+          - { name: svartvit, label: "Visa porträttet i svartvitt", widget: boolean, default: true }
+          - { name: roll, label: "Liten rubrik i kortet", widget: string, required: false }
+          - { name: kortrubrik, label: "Rubrik i kortet", widget: string }
+          - { name: body, label: "Text", widget: markdown, buttons: [bold, italic, link, bulleted-list], editor_components: [] }
+          - name: fakta
+            label: "Fakta (Utbildning, Specialitet …)"
+            widget: list
+            fields:
+              - { name: rubrik, label: "Rubrik", widget: string }
+              - { name: rader, label: "Rader", widget: list, field: { name: rad, label: "Rad", widget: string } }
+
+      - name: mer-kunskap
+        label: "4. Mer kunskap"
+        file: content/mer-kunskap.md
+        fields:
+          - { name: rubrik, label: "Rubrik", widget: string }
+          - name: artiklar
+            label: "Texter"
+            widget: list
+            fields:
+              - { name: titel, label: "Titel", widget: string }
+              - { name: beskrivning, label: "Kort beskrivning", widget: string, required: false }
+              - { name: pdf, label: "PDF (lämna tomt så står det ”PDF kommer snart”)", widget: file, required: false }
+          - { name: avslutning, label: "Text före länken ”Kontakta Jenny”", widget: string, required: false }
+
+      - name: kontakt
+        label: "5. Kontakt"
+        file: content/kontakt.md
+        fields:
+          - { name: rubrik, label: "Rubrik", widget: string, default: "Kontakt" }
+          - { name: epost, label: "E-post", widget: string, required: false }
+          - { name: telefon, label: "Telefon", widget: string, required: false, hint: "Visas också på knappen ”Ring …” högst upp." }
+          - { name: adress, label: "Adress (visar även en karta)", widget: text, required: false }
+          - { name: facebook, label: "Facebook-länk", widget: string, required: false }
+          - { name: instagram, label: "Instagram-länk", widget: string, required: false }
+
+  - name: tjanster
+    label: "3. Tjänster"
+    label_singular: Tjänst
+    folder: content/tjanster
+    create: true
+    delete: true
+    slug: "{{titel}}"
+    identifier_field: titel
+    sortable_fields: [ordning, titel]
+    editor: { preview: false }
+    summary: "{{ordning}}. {{titel}}"
+    fields:
+      - { name: titel, label: "Titel", widget: string }
+      - { name: ordning, label: "Ordning (1 = först)", widget: number, value_type: int, default: 1 }
+      - { name: bild, label: "Bild", widget: image, required: false, hint: "Utan bild får rutan en ljusgrön färg." }
+      - { name: bild_alt, label: "Bildbeskrivning", widget: string, required: false }
+      - { name: beskrivning, label: "Kort beskrivning", widget: text, hint: "Visas överst på tjänstens sida och i Google." }
+      - { name: body, label: "Mer text om tjänsten", widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list], editor_components: [] }
+      - { name: detaljer, label: "Praktisk info (datum, pris …)", widget: string, required: false }
+      - { name: knapptext, label: "Text på knappen", widget: string, default: "Kontakta Jenny" }
+
+  - name: installningar
+    label: Inställningar och bilder
+    editor: { preview: false }
+    files:
+      - name: installningar
+        label: "Allmänt, logga och delningsbild"
+        file: content/installningar.md
+        fields:
+          - { name: varumarke, label: "Namn på verksamheten", widget: string }
+          - { name: titel, label: "Titel i Google och webbläsarfliken", widget: string }
+          - { name: beskrivning, label: "Beskrivning i Google", widget: text, hint: "Helst under 160 tecken." }
+          - { name: sidfotstext, label: "Text i sidfoten", widget: text }
+          - { name: logga, label: "Logga (vit på genomskinlig bakgrund)", widget: image }
+          - { name: delningsbild, label: "Bild när sidan delas (1200 × 630 px)", widget: image }
+          - { name: webbadress, label: "Webbadress", widget: string, hint: "Ändra bara om domänen byts." }

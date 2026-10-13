@@ -1,0 +1,8 @@
+# Fonts and optimized images can be cached by browsers.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/images/opt/*
+  Cache-Control: public, max-age=604800
+
+/admin/*
+  X-Robots-Tag: noindex
