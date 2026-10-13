@@ -1,5 +1,5 @@
 ---
-namn: Jenny Davidsso
+namn: Jenny Davidsson
 rubrik: |-
   Dans och
   Rörelsepraktiken
