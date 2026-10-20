@@ -1,11 +1,12 @@
 ---
 rubrik: Jenny Davidsson
-ingress: Danskonstnär, dans- och rörelseterapeut och legitimerad fysioterapeut med ett helhetsperspektiv på människan.
-roll: Dans- & rörelseterapeut
-kortrubrik: Om mig
+ingress: Danskonstnär, dans- och rörelseterapeut och legitimerad fysioterapeut
+  med ett helhetsperspektiv på människan.
 portratt: /images/uploads/jenny-davidsson.jpg
 portratt_alt: Jenny Davidsson, dans- och rörelseterapeut
 svartvit: true
+roll: Dans- & rörelseterapeut
+kortrubrik: Om mig
 fakta:
   - rubrik: Utbildning
     rader:
@@ -13,6 +14,7 @@ fakta:
       - Stockholms Musikpedagogiska Institut
       - Södertörns högskola
       - Trinity Laban Conservatoire of Music and Dance
+      - Danshögskolan Stockholm
   - rubrik: Specialitet
     rader:
       - Dance Movement Therapy
