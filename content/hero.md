@@ -3,7 +3,7 @@ namn: Jenny Davidsson
 rubrik: |-
   Dans och
   Rörelsepraktiken
-underrubrik: Dance Movement Therapy och Authentic Movement
+underrubrik: ""
 bakgrundsbild: /images/uploads/vatten.jpg
 bakgrundsbild_alt: Vattenyta med ringar från regndroppar i varma bruna toner
 knapptext: Boka tid
