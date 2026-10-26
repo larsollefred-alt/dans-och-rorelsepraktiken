@@ -1,8 +1,6 @@
 ---
 namn: Jenny Davidsson
-rubrik: |-
-  Dans och
-  Rörelsepraktiken
+rubrik: Dans & rörelsepraktiken
 underrubrik: ""
 bakgrundsbild: /images/uploads/vatten.jpg
 bakgrundsbild_alt: Vattenyta med ringar från regndroppar i varma bruna toner
