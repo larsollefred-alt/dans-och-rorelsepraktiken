@@ -1,7 +1,7 @@
 ---
 rubrik: Jenny Davidsson
-ingress: Danskonstnär, dans- och rörelseterapeut och legitimerad fysioterapeut
-  med ett helhetsperspektiv på människan.
+ingress: Dans- och rörelseterapeut, danskonstnär och fysioterapeut med ett
+  helhetsperspektiv på människan.
 portratt: /images/uploads/jenny-davidsson.jpg
 portratt_alt: Jenny Davidsson, dans- och rörelseterapeut
 svartvit: true
@@ -24,11 +24,11 @@ fakta:
     rader:
       - 20+ år
 ---
-Jag är dans- och rörelseterapeut, diplomerad vid Danshögskolan i Stockholm 2005. Jag har studerat dans som konstform på folkhögskole- och universitetsnivå och är även i botten fysioterapeut med inriktning mot psykosomatik, examinerad vid Karolinska Institutet år 2000.
+Jag är dans- och rörelseterapeut och har en grundläggande utbildning i integrativ verbal psykoterapi. Jag är även danskonstnär och fysioterapeut med inriktning mot psykosomatik.
 
-Utöver detta har jag påbyggnadsutbildningar inom psykoterapi, Basal Kroppskännedom, Compassionfokuserad mindfulness, existentiella samtal och konceptet ”Dans för hälsa”. 
+Utöver detta har jag påbyggnadsutbildningar Basal Kroppskännedom, Compassionfokuserad mindfulness, existentiella samtal och konceptet ”Dans för hälsa”. 
 
-Sedan 2009 arbetar jag på Karlstads universitet där jag har skapat och utvecklat kurser inom dans- och rörelseterapi.
+Sedan 2009 arbetar jag på Karlstads universitet där jag har skapat och utvecklat kurser inom dans- och rörelseterapi. Innan
 
 Jag har en masterexamen inom den den praktiska kunskapens teori från Södertörns högskola, examinerad år 2027.
 
