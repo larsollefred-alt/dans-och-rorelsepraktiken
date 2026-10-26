@@ -24,8 +24,12 @@ fakta:
     rader:
       - 20+ år
 ---
-Jag är danskonstnär och dans- och rörelseterapeut, diplomerad vid Danshögskolan i Stockholm 2005. Jag har studerat dans som konstform på universitetsnivå vid Trinity Laban Conservatoire of Music and Dance i London och Stockholms universitet. Jag är även legitimerad fysioterapeut med inriktning mot psykosomatik, examinerad vid Karolinska Institutet år 2000.
+Jag är dans- och rörelseterapeut, diplomerad vid Danshögskolan i Stockholm 2005. Jag har studerat dans som konstform på folkhögskole- och universitetsnivå och är även i botten fysioterapeut med inriktning mot psykosomatik, examinerad vid Karolinska Institutet år 2000.
 
-Utöver detta har jag påbyggnadsutbildningar inom Basal Kroppskännedom, Compassionfokuserad terapi, mindfulness och konceptet ”Dans för hälsa”. Sedan 2009 har jag skapat och utvecklat kurser inom dans- och rörelseterapi vid Karlstads universitet, och jag läser nu ett masterprogram inom den praktiska kunskapens teori vid Södertörns högskola.
+Utöver detta har jag påbyggnadsutbildningar inom psykoterapi, Basal Kroppskännedom, Compassionfokuserad mindfulness, existentiella samtal och konceptet ”Dans för hälsa”. 
 
-I min förståelse av människan har jag ett helhetsperspektiv, där jag ser samspelet mellan kognitiva, känslomässiga, kroppsliga, existentiella och sociala aspekter som betydelsebärande.
+Sedan 2009 arbetar jag på Karlstads universitet där jag har skapat och utvecklat kurser inom dans- och rörelseterapi.
+
+Jag har en masterexamen inom den den praktiska kunskapens teori från Södertörns högskola, examinerad år 2027.
+
+I min förståelse av människan har jag ett helhetsperspektiv, där jag ser samspelet mellan kognitiva, känslomässiga, kroppsliga, sociala och existentiella aspekter som betydelsebärande i det terapeutiska mötet.
