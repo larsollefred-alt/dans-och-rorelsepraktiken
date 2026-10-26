@@ -16,7 +16,7 @@ fakta:
       - Existentiella samtal (Södertörns högskola)
       - Masterprogram i praktisk kunskap (Södertörns högskola)
       - Dansvetenskap (Stockholms universitet)
-  - rubrik: Specialitet
+  - rubrik: Specialisering
     rader:
       - Dance Movement Therapy
       - Authentic Movement
