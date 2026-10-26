@@ -8,7 +8,7 @@ svartvit: true
 roll: Dans- & rörelseterapeut
 kortrubrik: Om mig
 fakta:
-  - rubrik: Utbildning
+  - rubrik: Utbildningar
     rader:
       - Fysioterapeut med inriktning psykosomation (Karolinska Institutet)
       - Dans-och rörelsteterapeut (Danshögskolan Stockholm)
