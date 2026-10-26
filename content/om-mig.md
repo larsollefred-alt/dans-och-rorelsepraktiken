@@ -10,11 +10,12 @@ kortrubrik: Om mig
 fakta:
   - rubrik: Utbildning
     rader:
-      - Karolinska Institutet
-      - Stockholms Musikpedagogiska Institut
-      - Södertörns högskola
-      - Trinity Laban Conservatoire of Music and Dance
-      - Danshögskolan Stockholm
+      - Fysioterapeut med inriktning psykosomation (Karolinska Institutet)
+      - Dans-och rörelsteterapeut (Danshögskolan Stockholm)
+      - Dansutbildning (Trinity Laban Conservatoire of Music and Dance)
+      - Existentiella samtal (Södertörns högskola)
+      - Masterprogram i praktisk kunskap (Södertörns högskola)
+      - Dansvetenskap (Stockholms universitet)
   - rubrik: Specialitet
     rader:
       - Dance Movement Therapy
